@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex flex-row w-full h-full">
+        <aside class="bg-slate-300 w-80 border-r-2 p-5 h-full">
+            <p id="todo" class="text-lg cursor-pointer border-b-2 border-white p-2">To Do</p>
+            <p id="completed"  class="text-lg cursor-pointer border-b-2 border-white p-2">Completed</p>
+        </aside>
+        <div id="display" class="w-full flex-col">
+            <div class="w-full h-15 flex justify-between bg-slate-800 p-2" >
+                <h2 class="ml-10 text-2xl font-bold text-white">List of Tasks</h2>
+                <button id="btnAdd" class="flex justify-center items-center h-10 w-10 rounded-md bg-teal-500 p-5 text-4xl text-center">+</button>
+            </div>
+            <div id="panel" class="p-10 grid sm:grid-cols-1 gap-10 md:grid-cols-3 bg-slate-100 w-full h-full">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
